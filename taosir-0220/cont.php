@@ -346,6 +346,10 @@ KISSY.ready(function(){
      showImg();
      
 });
+
+KISSY.use('core',function(S){
+    var $ = S.all;
+});
 </script>
 
 
